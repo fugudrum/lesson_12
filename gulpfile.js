@@ -4,7 +4,7 @@ const sass = require('gulp-sass');
 
 // Static server
  function bs() {
-     serveSass
+     serveSass()
      browserSync.init({
          server: {
              baseDir: "./"
