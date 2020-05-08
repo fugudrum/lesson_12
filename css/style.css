@@ -379,8 +379,11 @@ header {
   align-items: center; }
 
 .logo {
-  color: #E3B873;
   text-transform: uppercase; }
+
+.logo > a {
+  text-decoration: none;
+  color: #E3B873; }
 
 .nav__item {
   color: #fff;
@@ -418,8 +421,10 @@ header {
     position: relative;
     max-width: 670px; }
   .hero__text {
-    font-size: 22px;
-    max-width: 500px; }
+    max-width: 500px;
+    font-size: 22px; }
+  .hero_title {
+    font-weight: normal; }
   .hero__button {
     margin-right: 20px; }
   .hero__instagram {
