@@ -27,4 +27,10 @@ $(document).ready(function () {
  closeBtn.on('click', function () {
   modal.toggleClass('modal--visible')
  });
+
+ var mySwiper = new Swiper ('.swiper-container', {
+   loop: true
+})
+
+
 });
